@@ -1,0 +1,14 @@
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\ProductStorage.Models.dll.config
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\ProductStorage.Models.dll
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\ProductStorage.Models.pdb
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\EntityFramework.dll
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\EntityFramework.xml
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\obj\Debug\ProductStorage.Models.csprojResolveAssemblyReference.cache
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\obj\Debug\ProductStorage.Models.dll
+D:\Test\VSTests\ProductStorage\ProductStorage.Models\obj\Debug\ProductStorage.Models.pdb
