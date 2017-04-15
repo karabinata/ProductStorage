@@ -24,7 +24,7 @@ namespace ProductStorage.ViewModels.Account
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
-        [Required]
+        //[Required]
         public string Username { get; set; }
 
         public HttpPostedFileBase ProfilePicture { get; set; }
