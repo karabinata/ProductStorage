@@ -9,7 +9,7 @@
         public ProductStorageContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
-            Database.SetInitializer(new DropCreateDatabaseAlways<ProductStorageContext>());
+            
         }
 
         public virtual DbSet<Category> Categories { get; set; }

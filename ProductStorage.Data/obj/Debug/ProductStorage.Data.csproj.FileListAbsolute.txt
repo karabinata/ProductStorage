@@ -14,20 +14,3 @@ D:\Test\VSTests\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Id
 D:\Test\VSTests\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.csprojResolveAssemblyReference.cache
 D:\Test\VSTests\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.dll
 D:\Test\VSTests\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.pdb
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Data.dll.config
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Data.dll
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Data.pdb
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\EntityFramework.dll
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\EntityFramework.SqlServer.dll
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Models.dll
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Models.pdb
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Models.dll.config
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\EntityFramework.xml
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\EntityFramework.SqlServer.xml
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.csprojResolveAssemblyReference.cache
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.dll
-D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.pdb
