@@ -6,6 +6,10 @@
 
     public class Invoice
     {
+        public Invoice()
+        {
+            this.Products = new HashSet<Product>();
+        }
         public int Id { get; set; }
 
         [Required, MinLength(3), MaxLength(50)]

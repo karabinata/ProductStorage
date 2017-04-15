@@ -120,6 +120,7 @@ D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\Produ
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\ProductStorage.dll
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\ProductStorage.pdb
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\Antlr3.Runtime.dll
+D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\AutoMapper.dll
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\EntityFramework.dll
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\EntityFramework.SqlServer.dll
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\Microsoft.AspNet.Identity.Core.dll
@@ -152,6 +153,7 @@ D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\Produ
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\ProductStorage.Models.pdb
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\ProductStorage.Models.dll.config
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\Antlr3.Runtime.pdb
+D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\AutoMapper.xml
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\Microsoft.Owin.xml
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\Microsoft.Owin.Host.SystemWeb.xml
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage\bin\Microsoft.Owin.Security.xml

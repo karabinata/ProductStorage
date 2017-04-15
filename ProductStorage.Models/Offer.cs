@@ -6,6 +6,10 @@
 
     public class Offer
     {
+        public Offer()
+        {
+            this.Products = new HashSet<Product>();
+        }
         public int Id { get; set; }
 
         [Required, MinLength(3), MaxLength(50)]

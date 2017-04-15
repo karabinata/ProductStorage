@@ -5,6 +5,10 @@
 
     public class Storage
     {
+        public Storage()
+        {
+            this.Categories = new HashSet<Category>();
+        }
         public int Id { get; set; }
 
         [Required, MinLength(3), MaxLength(50)]

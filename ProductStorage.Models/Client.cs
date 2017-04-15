@@ -5,6 +5,11 @@
 
     public class Client
     {
+        public Client()
+        {
+            this.Offers = new HashSet<Offer>();
+            this.Invoices = new HashSet<Invoice>();
+        }
         public int Id { get; set; }
 
         [Required, MinLength(3), MaxLength(100)]
