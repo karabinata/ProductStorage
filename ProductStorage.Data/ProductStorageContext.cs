@@ -2,14 +2,15 @@
 {
     using System.Data.Entity;
     using Microsoft.AspNet.Identity.EntityFramework;
+    using Migrations;
     using Models;
 
     public class ProductStorageContext : IdentityDbContext<ApplicationUser>
     {
         public ProductStorageContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("ProductStorageContext", throwIfV1Schema: false)
         {
-            
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ProductStorageContext, Configuration>());
         }
 
         public virtual DbSet<Category> Categories { get; set; }
