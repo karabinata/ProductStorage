@@ -2,7 +2,7 @@
 {
     using System.ComponentModel;
 
-    public class DetailStorageViewModel
+    public class DetailsStorageViewModel
     {
 
         public int Id { get; set; }

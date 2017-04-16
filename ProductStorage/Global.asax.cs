@@ -16,7 +16,7 @@ namespace ProductStorage
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            AutoMappingWebConfig.StorageMappings();
+            AutoMappingWebConfig.Mappings();
         }
     }
 }

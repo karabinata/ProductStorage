@@ -39,7 +39,7 @@
                 return HttpNotFound();
             }
 
-            var model = Mapper.Instance.Map<DetailStorageViewModel>(storage);
+            var model = Mapper.Instance.Map<DetailsStorageViewModel>(storage);
 
             return View(model);
         }
