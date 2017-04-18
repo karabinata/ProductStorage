@@ -12,7 +12,7 @@
         }
         public int Id { get; set; }
 
-        [Required, MinLength(3), MaxLength(50)]
+        [Required, MinLength(3), MaxLength(50), DisplayName("Category name")]
         public string Name { get; set; }
 
         [MaxLength(200)]

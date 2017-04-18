@@ -1,4 +1,6 @@
-﻿namespace ProductStorage.Models
+﻿using System.ComponentModel;
+
+namespace ProductStorage.Models
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -13,24 +15,25 @@
         }
         public int Id { get; set; }
 
-        [Required, MinLength(3), MaxLength(100)]
+        [Required, MinLength(3), MaxLength(100), DisplayName("Product name")]
         public string Name { get; set; }
 
         [MaxLength(200)]
         public string Description { get; set; }
 
         [Price]
-        public decimal Price { get; set; }
+        public double Price { get; set; }
 
         [Quantity]
         public int Quantity { get; set; }
 
-        [Quantity]
+        [Quantity, DisplayName("Minimum quantity")]
         public int MinimumQuantity { get; set; }
 
-        [Required]
+        [Required, DisplayName("Item category")]
         public int CategoryId { get; set; }
 
+        [DisplayName("Item category")]
         public virtual Category Category { get; set; }
 
         public virtual ICollection<Offer> Offers { get; set; }

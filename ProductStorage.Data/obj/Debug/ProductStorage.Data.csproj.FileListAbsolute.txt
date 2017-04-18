@@ -31,3 +31,19 @@ D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\bin\
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.csprojResolveAssemblyReference.cache
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.dll
 D:\Programming Projects\Exercises CSharp\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.pdb
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Data.dll.config
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Data.dll
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Data.pdb
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\EntityFramework.dll
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Models.dll
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\ProductStorage.Models.pdb
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\EntityFramework.xml
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Programming\ProductStorage\ProductStorage.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Programming\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.csprojResolveAssemblyReference.cache
+D:\Programming\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.dll
+D:\Programming\ProductStorage\ProductStorage.Data\obj\Debug\ProductStorage.Data.pdb

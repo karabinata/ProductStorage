@@ -4,7 +4,9 @@
     using AutoMapper;
     using Models;
     using ViewModels.Category;
+    using ViewModels.Product;
     using ViewModels.Storage;
+    using ViewModels.Client;
 
     public class AutoMappingWebConfig
     {
@@ -27,6 +29,10 @@
                         mo => mo.MapFrom(src => src.ParentCategory.Name))
                     .ForMember(dest => dest.StorageName,
                         mo => mo.MapFrom(src => src.Storage.Name));
+
+                cfg.CreateMap<Client, ClientListViewModel>();
+
+                cfg.CreateMap<Product, ProductListViewModel>();
             });
         }
     }

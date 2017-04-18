@@ -1,16 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace ProductStorage.Controllers
+﻿namespace ProductStorage.Controllers
 {
+    using System.Linq;
+    using Data;
+    using System.Web.Mvc;
+    using ViewModels.Home;
+
     public class HomeController : Controller
     {
+        private ProductStorageContext db = new ProductStorageContext();
+
         public ActionResult Index()
         {
-            return View();
+            var lastesetInformation = new LatestAddedViewModel
+            {
+                Storages = db.Storages.OrderByDescending(s => s.Id).Take(5).ToList(),
+                Categories = db.Categories.OrderByDescending(s => s.Id).Take(5).ToList(),
+                Clients = db.Clients.OrderByDescending(s => s.Id).Take(5).ToList(),
+                Products = db.Products.OrderByDescending(s => s.Id).Take(5).ToList(),
+                Offers = db.Offers.OrderByDescending(s => s.Id).Take(5).ToList(),
+                Invoices = db.Invoices.OrderByDescending(s => s.Id).Take(5).ToList(),
+
+            };
+
+            return View(lastesetInformation);
         }
 
         public ActionResult About()

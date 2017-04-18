@@ -1,6 +1,7 @@
 ﻿namespace ProductStorage.Models
 {
     using System.Collections.Generic;
+    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
 
     public class Storage
@@ -11,7 +12,7 @@
         }
         public int Id { get; set; }
 
-        [Required, MinLength(3), MaxLength(50)]
+        [Required, MinLength(3), MaxLength(50), DisplayName("Storage")]
         public string Name { get; set; }
 
         [MaxLength(200)]

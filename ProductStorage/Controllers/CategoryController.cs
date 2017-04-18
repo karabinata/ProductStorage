@@ -15,13 +15,25 @@
         private ProductStorageContext db = new ProductStorageContext();
 
         // GET: Category
-        public ActionResult Index()
+        public ActionResult Index(int? storageID = null)
         {
-            var categories = Mapper.Instance.Map<List<CategoryListViewModel>>(db.Categories.Include(c => c.ParentCategory)
-                .Include(c => c.Storage)
-                .ToList());
-
-            return View(categories);
+            if (storageID != null)
+            {
+                var categories =
+                    Mapper.Instance.Map<List<CategoryListViewModel>>(
+                        db.Categories.Where(c => c.StorageId == storageID).Include(c => c.ParentCategory)
+                            .Include(c => c.Storage)
+                            .ToList());
+                return View(categories);
+            }
+            else
+            {
+                var categories =
+                    Mapper.Instance.Map<List<CategoryListViewModel>>(
+                        db.Categories.Include(c => c.Storage)
+                            .ToList());
+                return View(categories);
+            }
         }
 
         // GET: Category/Details/5
@@ -101,7 +113,7 @@
                 return HttpNotFound();
             }
 
-            ViewBag.ParentCategoryId = new SelectList(CategoriesAsListItems(), "Value", "Text", category.ParentCategoryId);
+            ViewBag.ParentCategoryId = new SelectList(CategoriesAsListItems(category.Id), "Value", "Text", category.ParentCategoryId);
             ViewBag.StorageId = new SelectList(db.Storages, "Id", "Name", category.StorageId);
 
             return View(category);
@@ -132,11 +144,18 @@
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
+            if (!User.Identity.IsAuthenticated)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.Unauthorized);
+            }
+
             Category category = db.Categories.Find(id);
             if (category == null)
             {
                 return HttpNotFound();
             }
+
             return View(category);
         }
 
@@ -151,7 +170,7 @@
             return RedirectToAction("Index");
         }
 
-        private List<SelectListItem> CategoriesAsListItems()
+        private List<SelectListItem> CategoriesAsListItems(int? currentCategoryId = null)
         {
             SelectListItem item;
             List<SelectListItem> categories = new List<SelectListItem>();
@@ -159,7 +178,7 @@
             item.Text = "No parent category";
             categories.Add(item);
 
-            foreach (var c in db.Categories)
+            foreach (var c in db.Categories.Where(c => c.Id != currentCategoryId))
             {
                 item = new SelectListItem();
                 item.Text = c.Name;
