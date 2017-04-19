@@ -1,18 +1,12 @@
-﻿using System.ComponentModel;
-
-namespace ProductStorage.Models
+﻿namespace ProductStorage.ViewModels.Product
 {
-    using System.Collections.Generic;
+    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
-    using Validation;
+    using Models.Validation;
+    using Models;
 
-    public class Product
+    public class ProductListViewModel
     {
-        public Product()
-        {
-            this.Offers = new HashSet<OfferProducts>();
-            this.Invoices = new HashSet<InvoiceProducts>();
-        }
         public int Id { get; set; }
 
         [Required, MinLength(3), MaxLength(100), DisplayName("Product name")]
@@ -35,9 +29,5 @@ namespace ProductStorage.Models
 
         [DisplayName("Item category")]
         public virtual Category Category { get; set; }
-
-        public virtual ICollection<OfferProducts> Offers { get; set; }
-
-        public virtual ICollection<InvoiceProducts> Invoices { get; set; }
     }
 }

@@ -8,8 +8,9 @@
     <div>
             @foreach (var item in Model.Storages)
             {
-                @Html.ActionLink(item.Name, "Details", "Storage", new {id = item.Id}, null)
-                ;
+                <div>
+                    @Html.ActionLink(item.Name, "Details", "Storage", new { id = item.Id }, null)
+                </div>
             }
     </div>
 </div>
@@ -18,7 +19,9 @@
     <div>
         @foreach (var item in Model.Categories)
             {
-            @Html.ActionLink(item.Name, "Details", "Category", new { id = item.Id }, null)
+            <div>
+                @Html.ActionLink(item.Name, "Details", "Category", new { id = item.Id }, null)
+            </div>
             ;
         }
     </div>
@@ -26,11 +29,12 @@
 <div class="col-sm-6 text-center">
     <h4>Latest clients added</h4>
     <div>
-        @foreach (var item in Model.Clients)
+    @foreach (var item in Model.Clients)
             {
+        <div>
             @Html.ActionLink(item.Name, "Details", "Client", new { id = item.Id }, null)
-            ;
-        }
+        </div>
+    }
     </div>
 </div>
 <div class="col-sm-6 text-center">
@@ -38,8 +42,9 @@
     <div>
         @foreach (var item in Model.Products)
         {
-
-            @Html.ActionLink(item.Name, "Details", "Product", new {id = item.Id}, null)
+            <div>
+                @Html.ActionLink(item.Name, "Details", "Product", new {id = item.Id}, null)
+            </div>
         }
     </div>
 </div>

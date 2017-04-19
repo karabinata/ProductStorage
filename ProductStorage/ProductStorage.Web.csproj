@@ -166,6 +166,7 @@
     <Compile Include="Controllers\ClientController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\OfferController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\StorageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -291,8 +292,15 @@
     <Content Include="Views\Product\Details.cshtml" />
     <Content Include="Views\Product\Edit.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Offer\Create.cshtml" />
+    <Content Include="Views\Offer\Delete.cshtml" />
+    <Content Include="Views\Offer\Details.cshtml" />
+    <Content Include="Views\Offer\Edit.cshtml" />
+    <Content Include="Views\Offer\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ViewModels\Offer\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />

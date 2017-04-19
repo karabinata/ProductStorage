@@ -8,7 +8,7 @@
     {
         public Invoice()
         {
-            this.Products = new HashSet<Product>();
+            this.Products = new HashSet<InvoiceProducts>();
         }
         public int Id { get; set; }
 
@@ -25,7 +25,7 @@
 
         public virtual Client Client { get; set; }
 
-        public virtual ICollection<Product> Products { get; set; }
+        public virtual ICollection<InvoiceProducts> Products { get; set; }
 
         public string AuthorId { get; set; }
 

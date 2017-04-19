@@ -8,7 +8,7 @@
     {
         public Offer()
         {
-            this.Products = new HashSet<Product>();
+            this.Products = new HashSet<OfferProducts>();
         }
         public int Id { get; set; }
 
@@ -25,11 +25,10 @@
 
         public virtual Client Client { get; set; }
 
-        public virtual ICollection<Product> Products { get; set; }
+        public virtual ICollection<OfferProducts> Products { get; set; }
 
         public string AuthorId { get; set; }
 
         public virtual ApplicationUser Author { get; set; }
-
     }
 }
